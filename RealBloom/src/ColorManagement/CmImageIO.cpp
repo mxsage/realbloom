@@ -36,6 +36,7 @@ bool CmImageIO::init()
             break;
         }
     }
+    return true;
 }
 
 void CmImageIO::cleanUp()
